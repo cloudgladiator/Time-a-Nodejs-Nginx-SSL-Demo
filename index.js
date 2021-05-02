@@ -90,5 +90,7 @@ let getData = (country, city) => {
     }
 }
 
-server.listen(8082);
+const port = process.env.PORT || '3000';
+
+server.listen(port);
 console.log("Server Started at 8082");
