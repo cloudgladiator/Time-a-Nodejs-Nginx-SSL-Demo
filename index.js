@@ -93,4 +93,4 @@ let getData = (country, city) => {
 const port = process.env.PORT || '3000';
 
 server.listen(port);
-console.log("Server Started at 8082");
+console.log(`Server Started at ${port}`);
